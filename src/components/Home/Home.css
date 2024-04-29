@@ -1,0 +1,57 @@
+#home {
+  height: calc(100vh-4rem);
+  width: 100vw;
+  /* max-width: 75rem; */
+  margin: 0 auto;
+  overflow: hidden;
+  background: linear-gradient(0deg, rgba(2, 6, 252, 0.3), rgba(2, 6, 252, 0.3)),
+    url("../../assets/judge_hammer.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.homeContent {
+  height: 100vh;
+  width: 100vw;
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.homeTitle {
+  color: yellow;
+}
+.horizontal-bar {
+  margin: 1.25rem 0;
+  width: 100px;
+  height: 3px;
+  background-color: yellow;
+}
+.homeText {
+  padding: 1.5rem 4rem;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 840px) {
+  .bg {
+    right: -10vw;
+  }
+  .homeContent {
+    font-size: 10vw;
+  }
+  .hello {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bg {
+    right: -20vw;
+  }
+}

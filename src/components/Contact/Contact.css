@@ -1,0 +1,15 @@
+#contact {
+  height: 60vh;
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  background: linear-gradient(0deg, rgba(2, 6, 252, 0.3), rgba(2, 6, 252, 0.3)),
+    url("../../assets/nairobi.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
