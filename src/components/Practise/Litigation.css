@@ -1,9 +1,82 @@
 .litigation-content {
   color: #024677;
   width: 100vw;
-  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #dcdcdc;
+}
+
+.litigation-body {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 1rem 0;
+}
+.horizontal-bar {
+  margin: 0.5rem 0;
+  width: 100px;
+  height: 5px;
+  background-color: rgb(199, 66, 199);
+}
+.litigation-body h1 {
+  padding: 3rem 0;
+}
+.litigation-text {
+  width: 20rem;
+  width: 32rem;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+}
+.litigation-text h7 {
+  padding-bottom: 23px;
+  text-align: justify;
+}
+
+.litigationImg {
+  object-fit: cover;
+  width: 32rem;
+  height: 20rem;
+}
+
+.litigationImg-container {
+  width: fit-content;
+  padding: 10px;
+
+  background: linear-gradient(
+    to right,
+    rgb(199, 66, 199) 0%,
+    rgb(199, 66, 199) 10%,
+    transparent 10%,
+    transparent 90%,
+    rgb(199, 66, 199) 90%,
+    rgb(199, 66, 199) 100%
+  );
+}
+.focus-areas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.focus-areas h7 {
+  padding: 0.6rem 0;
+  font-size: large;
+}
+.focus-areas h1 {
+  padding: 3rem 0;
+}
+.focus-area {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+}
+.focus-area i {
+  font-size: 1.6rem;
+  padding-right: 0.9rem;
+  color: rgb(199, 66, 199);
 }
