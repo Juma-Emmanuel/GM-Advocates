@@ -1,0 +1,78 @@
+.technology-content {
+  color: #024677;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #dcdcdc;
+}
+
+.technology-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 1rem 0;
+}
+.horizontal-bar {
+  margin: 0.5rem 0;
+  width: 100px;
+  height: 5px;
+  background-color: rgb(199, 66, 199);
+}
+.technology-body h1 {
+  padding: 3rem 0;
+}
+.technology-text {
+  width: 32rem;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+}
+.technology-text h7 {
+  padding-bottom: 23px;
+  text-align: justify;
+}
+
+.technologyImg {
+  object-fit: cover;
+  width: 32rem;
+  height: 20rem;
+}
+
+.technologyImg-container {
+  width: fit-content;
+  padding: 10px;
+
+  background: linear-gradient(
+    to right,
+    rgb(199, 66, 199) 0%,
+    rgb(199, 66, 199) 10%,
+    transparent 10%,
+    transparent 90%,
+    rgb(199, 66, 199) 90%,
+    rgb(199, 66, 199) 100%
+  );
+}
+.focus-areas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+.focus-areas h7 {
+  padding: 0.6rem 0;
+  font-size: large;
+  text-align: justify;
+}
+.focus-areas h1 {
+  padding: 3rem 0;
+}
+.focus-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 32rem;
+}

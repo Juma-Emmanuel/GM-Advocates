@@ -26,21 +26,21 @@ function Practise() {
         <div className=" practise-area-card">
           <img src={Hammer} alt="" className="practise-area-img"></img>
           <h className="areaTitle">Technology & Internet Law</h>
-          <Link to="intro" className="cardLink">
+          <Link to="/technology-ip-internetlaw" className="cardLink">
             Learn More{" "}
           </Link>
         </div>
         <div className=" practise-area-card">
           <img src={Justice} alt="" className="practise-area-img"></img>
           <h className="areaTitle">Corporate & Commercial Law</h>
-          <Link to="intro" className="cardLink">
+          <Link to="/corporate-commercial-law/" className="cardLink">
             Learn More{" "}
           </Link>{" "}
         </div>
         <div className=" practise-area-card">
           <img src={Law} alt="" className="practise-area-img"></img>
           <h className="areaTitle">Real Estate & Property Law</h>
-          <Link to="intro" className="cardLink">
+          <Link to="/real-estate-property-law/" className="cardLink">
             Learn More{" "}
           </Link>
         </div>
