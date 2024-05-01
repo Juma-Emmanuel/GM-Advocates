@@ -6,6 +6,8 @@ import Litigation from "./components/Practise/Litigation";
 import TechnologyLaw from "./components/Practise/TechnologyLaw";
 import CorporateCommercial from "./components/Practise/CorporateCommercial";
 import RealEstateProperty from "./components/Practise/RealEstateProperty";
+import AviationLawPractise from "./components/Practise/AviationLawPractise";
+import ProcurementLaw from "./components/Practise/ProcurementLaw";
 function App() {
   return (
     <div className="App">
@@ -26,6 +28,11 @@ function App() {
             path="/real-estate-property-law/"
             element={<RealEstateProperty />}
           />
+          <Route
+            path="/aviation-law-practise/"
+            element={<AviationLawPractise />}
+          />
+          <Route path="/procurement-law/" element={<ProcurementLaw />} />
         </Routes>
       </Router>
     </div>

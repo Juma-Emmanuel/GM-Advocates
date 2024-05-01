@@ -1,21 +1,21 @@
 import React from "react";
-import "./TechnologyLaw.css";
+import "./PracticeAreas.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import technologyImg from "../../assets/technology-law.jpg";
 
 function TechnologyLaw() {
   return (
-    <section className="technology">
+    <section className="practise-area">
       <Navbar />
-      <div className="technology-content">
-        <div className="technology-body">
+      <div className="practise-area-content">
+        <div className="main-area">
           <div className="horizontal-bar"></div>
           <h1>
             Technology,Intellectual Property
             <br /> (IP)&Internet Law
           </h1>
-          <div className="technology-text">
+          <div className="main-area-text">
             <h7>
               Our Technology, Intellectual Property (IP) & Internet Law
               practices focus on advising tech-companies on the legal principles
@@ -27,12 +27,8 @@ function TechnologyLaw() {
               patent, copyright and trademark registration.
             </h7>
           </div>
-          <div className="technologyImg-container">
-            <img
-              src={technologyImg}
-              alt="technology-Img"
-              className="technologyImg"
-            ></img>
+          <div className="img-container">
+            <img src={technologyImg} alt="technology-Img" className="img"></img>
           </div>
         </div>
         <div className="focus-areas">

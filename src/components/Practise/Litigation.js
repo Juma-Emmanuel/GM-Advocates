@@ -1,17 +1,18 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import "./Litigation.css";
+import "./PracticeAreas.css";
+
 import litigationImg from "../../assets/Litigation-and-Dispute-Resolution.jpg";
 function Litigation() {
   return (
-    <section className="litigation">
+    <section className="practise-area">
       <Navbar />
-      <div className="litigation-content">
-        <div className="litigation-body">
+      <div className="practise-area-content">
+        <div className="main-area">
           <div className="horizontal-bar"></div>
           <h1>Litigation & Dispute Resolution</h1>
-          <div className="litigation-text">
+          <div className="main-area-text">
             <h7>
               Our Litigation & Dispute Resolution practice focuses on solving
               disputes relating to employment and labour relations, environment
@@ -23,12 +24,8 @@ function Litigation() {
               clients through the dispute resolution process.
             </h7>
           </div>
-          <div className="litigationImg-container">
-            <img
-              src={litigationImg}
-              alt="litigation-Img"
-              className="litigationImg"
-            ></img>
+          <div className="img-container">
+            <img src={litigationImg} alt="litigation-Img" className="img"></img>
           </div>
         </div>
         <div className="focus-areas">

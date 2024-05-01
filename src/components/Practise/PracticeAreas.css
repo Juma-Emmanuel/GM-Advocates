@@ -1,4 +1,4 @@
-.technology-content {
+.practise-area-content {
   color: #024677;
   width: 100vw;
 
@@ -9,11 +9,10 @@
   background: #dcdcdc;
 }
 
-.technology-body {
+.main-area {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   padding: 1rem 0;
 }
 .horizontal-bar {
@@ -22,27 +21,27 @@
   height: 5px;
   background-color: rgb(199, 66, 199);
 }
-.technology-body h1 {
+.main-area h1 {
   padding: 3rem 0;
 }
-.technology-text {
+.main-area-text {
   width: 32rem;
   font-size: large;
   display: flex;
   flex-direction: column;
 }
-.technology-text h7 {
+.main-area-text h7 {
   padding-bottom: 23px;
   text-align: justify;
 }
 
-.technologyImg {
+.img {
   object-fit: cover;
   width: 32rem;
   height: 20rem;
 }
 
-.technologyImg-container {
+.img-container {
   width: fit-content;
   padding: 10px;
 
@@ -57,15 +56,14 @@
   );
 }
 .focus-areas {
+  width: 32rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
 }
 .focus-areas h7 {
   padding: 0.6rem 0;
   font-size: large;
-  text-align: justify;
 }
 .focus-areas h1 {
   padding: 3rem 0;
@@ -74,5 +72,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 32rem;
+}
+.focus-area i {
+  font-size: 1.6rem;
+  padding-right: 0.9rem;
+  color: rgb(199, 66, 199);
 }

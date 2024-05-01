@@ -22,6 +22,7 @@
   margin: 1rem;
   cursor: pointer;
   font-size: large;
+  color: white;
 }
 .desktopMenuListItem:hover {
   color: yellow;

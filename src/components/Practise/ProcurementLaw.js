@@ -1,50 +1,56 @@
-import React from "react";
 import "./PracticeAreas.css";
-import aviationImg from "../../assets/airplane-runway.jpg";
+import procurementImg from "../../assets/procurement.jpg";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-function AviationLawPractise() {
+import React from "react";
+
+function ProcurementLaw() {
   return (
     <section className="practise-area">
       <Navbar />
       <div className="practise-area-content">
         <div className="main-area">
           <div className="horizontal-bar"></div>
-          <h1>Litigation & Dispute Resolution</h1>
+          <h1>Procurement Law</h1>
           <div className="main-area-text">
             <h7>
-              We advise on a full range of aviation issues including major loss,
-              emergency response and liability as well as non-contentious work
-              including regulation, finance and employment.
+              We offer legal representation and advise entities on how to
+              resolve disputes/potential disputes that arise from the
+              loss/damage suffered due to breach of duty imposed on a procuring
+              entity by the Public Procurement and Disposal Act, 2015.
             </h7>
           </div>
           <div className="img-container">
-            <img src={aviationImg} alt="litigation-Img" className="img"></img>
+            <img
+              src={procurementImg}
+              alt="litigation-Img"
+              className="img"
+            ></img>
           </div>
         </div>
         <div className="focus-areas">
           <div className="horizontal-bar"></div>
-          <h1>Our Aviation Services</h1>
+          <h1>We advise state entities on</h1>
 
           <div className="focus-area">
             <i className="fa fa-caret-right"></i>
-            <h7>Fleet procurement</h7>
+            <h7>procurement planning</h7>
           </div>
           <div className="focus-area">
             <i className="fa fa-caret-right"></i>{" "}
-            <h7>Commercial Dispute Resolution</h7>
+            <h7>procurement processing</h7>
           </div>
           <div className="focus-area">
             <i className="fa fa-caret-right"></i>
-            <h7>Debt Recovery</h7>
+            <h7>Inventory and asset management</h7>
           </div>
           <div className="focus-area">
             <i className="fa fa-caret-right"></i>
-            <h7>Environmental Claims/Toxic exposure</h7>
+            <h7>diposal of assets</h7>
           </div>
           <div className="focus-area">
             <i className="fa fa-caret-right"></i>
-            <h7>Finance & Leasing</h7>
+            <h7>contract management</h7>
           </div>
         </div>
       </div>
@@ -53,4 +59,4 @@ function AviationLawPractise() {
   );
 }
 
-export default AviationLawPractise;
+export default ProcurementLaw;

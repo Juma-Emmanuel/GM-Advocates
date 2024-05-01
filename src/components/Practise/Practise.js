@@ -11,10 +11,7 @@ function Practise() {
   return (
     <section id="practise-area" className="practise-area">
       <span className="practiseTitle">Practise Areas</span>
-      {/* <section className="container" id="container">
-        <div className="sticky-section"></div>
-        <div className="content"></div>
-      </section> */}
+
       <div className="practise-area-cards">
         <div className=" practise-area-card">
           <img src={Chamber} alt="" className="practise-area-img"></img>
@@ -47,14 +44,14 @@ function Practise() {
         <div className=" practise-area-card">
           <img src={Lawfirm} alt="" className="practise-area-img"></img>
           <h className="areaTitle">Aviation Law & Practice</h>
-          <Link to="intro" className="cardLink">
+          <Link to="/aviation-law-practise/" className="cardLink">
             Learn More{" "}
           </Link>{" "}
         </div>
         <div className=" practise-area-card">
           <img src={Chamber} alt="" className="practise-area-img"></img>
           <h className="areaTitle">Procurement Law</h>
-          <Link to="intro" className="cardLink">
+          <Link to="/procurement-law/" className="cardLink">
             Learn More{" "}
           </Link>{" "}
         </div>

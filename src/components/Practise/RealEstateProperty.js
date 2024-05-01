@@ -1,28 +1,24 @@
 import React from "react";
-import "./TechnologyLaw.css";
+import "./PracticeAreas.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import realEstateImg from "../../assets/real_estate.jpg";
 function RealEstateProperty() {
   return (
-    <section className="technology">
+    <section className="practise-area">
       <Navbar />
-      <div className="technology-content">
-        <div className="technology-body">
+      <div className="practise-area-content">
+        <div className="main-area">
           <div className="horizontal-bar"></div>
           <h1>Real Estate & Property Law</h1>
-          <div className="technology-text">
+          <div className="main-area-text">
             <h7>
               We provide support for home buyers, investors, developers, local
               authorities, banks and housing corporations.
             </h7>
           </div>
-          <div className="technologyImg-container">
-            <img
-              src={realEstateImg}
-              alt="technology-Img"
-              className="technologyImg"
-            ></img>
+          <div className="img-container">
+            <img src={realEstateImg} alt="realEstate-Img" className="img"></img>
           </div>
         </div>
         <div className="focus-areas">
