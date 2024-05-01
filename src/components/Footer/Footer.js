@@ -10,7 +10,7 @@ function Footer() {
       <div className="footerContent">
         <h1 className="footerText">
           We are Committed to exceeding your expectations. Get the legal
-          representation you deserve{" "}
+          representation you deserve.{" "}
         </h1>
         <div className="contact-address">
           <h1>Contact us</h1>

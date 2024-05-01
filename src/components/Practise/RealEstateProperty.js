@@ -3,10 +3,13 @@ import "./PracticeAreas.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import realEstateImg from "../../assets/real_estate.jpg";
+import PractiseAreaBg from "./PractiseAreaBg";
+import Contact from "../Contact/Contact";
 function RealEstateProperty() {
   return (
     <section className="practise-area">
       <Navbar />
+      <PractiseAreaBg title={"Procurement Law"} />
       <div className="practise-area-content">
         <div className="main-area">
           <div className="horizontal-bar"></div>
@@ -37,6 +40,7 @@ function RealEstateProperty() {
           </div>
         </div>
       </div>
+      <Contact />
       <Footer />
     </section>
   );

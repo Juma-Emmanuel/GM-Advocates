@@ -2,7 +2,6 @@
   background: #024677;
   height: fit-content;
   width: 100vw;
-  /* max-width: 75rem; */
   margin: 0 auto;
   padding: 0rem 15rem;
   display: flex;
@@ -25,9 +24,9 @@
   color: white;
 }
 .desktopMenuListItem:hover {
-  color: yellow;
+  color: rgb(199, 66, 199);
   padding: 0.5rem;
-  border-bottom: 5px solid yellow;
+  border-bottom: 5px solid rgb(199, 66, 199);
 }
 .ConsultationBtn {
   border: 1px solid white;
@@ -41,12 +40,13 @@
 .ConsultationBtn:hover {
   background: white;
   color: #024677;
+
   transform: scale(1.1);
 }
 .active {
-  color: yellow;
+  color: rgb(199, 66, 199);
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid yellow;
+  border-bottom: 3px solid rgb(199, 66, 199);
 }
 .navMenu {
   position: absolute;

@@ -3,11 +3,13 @@ import procurementImg from "../../assets/procurement.jpg";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import React from "react";
-
+import PractiseAreaBg from "./PractiseAreaBg";
+import Contact from "../Contact/Contact";
 function ProcurementLaw() {
   return (
     <section className="practise-area">
       <Navbar />
+      <PractiseAreaBg title={"Procurement Law"} />
       <div className="practise-area-content">
         <div className="main-area">
           <div className="horizontal-bar"></div>
@@ -54,6 +56,7 @@ function ProcurementLaw() {
           </div>
         </div>
       </div>
+      <Contact />
       <Footer />
     </section>
   );

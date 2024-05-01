@@ -3,10 +3,13 @@ import "./PracticeAreas.css";
 import aviationImg from "../../assets/airplane-runway.jpg";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import PractiseAreaBg from "./PractiseAreaBg";
+import Contact from "../Contact/Contact";
 function AviationLawPractise() {
   return (
     <section className="practise-area">
       <Navbar />
+      <PractiseAreaBg title={"Aviation Law & Practice"} />
       <div className="practise-area-content">
         <div className="main-area">
           <div className="horizontal-bar"></div>
@@ -48,6 +51,7 @@ function AviationLawPractise() {
           </div>
         </div>
       </div>
+      <Contact />
       <Footer />
     </section>
   );

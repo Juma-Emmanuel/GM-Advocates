@@ -1,23 +1,25 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import HomePage from "./HomePage";
+import HomePage from "./pages/HomePage";
 import Litigation from "./components/Practise/Litigation";
 import TechnologyLaw from "./components/Practise/TechnologyLaw";
 import CorporateCommercial from "./components/Practise/CorporateCommercial";
 import RealEstateProperty from "./components/Practise/RealEstateProperty";
 import AviationLawPractise from "./components/Practise/AviationLawPractise";
 import ProcurementLaw from "./components/Practise/ProcurementLaw";
+
 function App() {
   return (
     <div className="App">
       <Router>
         <Routes>
-          {/* <Route path="/" element={HomePage} /> */}
           <Route path="/" element={<HomePage />} />
-          <Route path="/litigation-dispute" element={<Litigation />} />
+
+          <Route path="/procurement-law/" element={<ProcurementLaw />} />
+          <Route path="/litigation-dispute/" element={<Litigation />} />
           <Route
-            path="/technology-ip-internetlaw"
+            path="/technology-ip-internetlaw/"
             element={<TechnologyLaw />}
           />
           <Route

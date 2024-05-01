@@ -3,10 +3,13 @@ import "./PracticeAreas.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import corporateImg from "../../assets/commercial.jpg";
+import PractiseAreaBg from "./PractiseAreaBg";
+import Contact from "../Contact/Contact";
 function CorporateCommercial() {
   return (
     <section className="practise-area">
       <Navbar />
+      <PractiseAreaBg title={"Corporate & Commercial Law"} />
       <div className="practise-area-content">
         <div className="main-area">
           <div className="horizontal-bar"></div>
@@ -43,6 +46,7 @@ function CorporateCommercial() {
           </div>
         </div>
       </div>
+      <Contact />
       <Footer />
     </section>
   );

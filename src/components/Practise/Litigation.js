@@ -2,12 +2,14 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import "./PracticeAreas.css";
-
+import PractiseAreaBg from "./PractiseAreaBg";
+import Contact from "../Contact/Contact";
 import litigationImg from "../../assets/Litigation-and-Dispute-Resolution.jpg";
 function Litigation() {
   return (
     <section className="practise-area">
       <Navbar />
+      <PractiseAreaBg title={"Litigation & Dispute Resolution"} />
       <div className="practise-area-content">
         <div className="main-area">
           <div className="horizontal-bar"></div>
@@ -57,6 +59,7 @@ function Litigation() {
           </div>
         </div>
       </div>
+      <Contact />
       <Footer />
     </section>
   );

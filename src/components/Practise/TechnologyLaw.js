@@ -3,11 +3,15 @@ import "./PracticeAreas.css";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import technologyImg from "../../assets/technology-law.jpg";
-
+import PractiseAreaBg from "./PractiseAreaBg";
+import Contact from "../Contact/Contact";
 function TechnologyLaw() {
   return (
     <section className="practise-area">
       <Navbar />
+      <PractiseAreaBg
+        myString={"Technology, Intellectual Property (IP) & Internet Law"}
+      />
       <div className="practise-area-content">
         <div className="main-area">
           <div className="horizontal-bar"></div>
@@ -54,6 +58,7 @@ function TechnologyLaw() {
         </div>
       </div>
       <Footer />
+      <Contact />
     </section>
   );
 }

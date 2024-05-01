@@ -24,13 +24,13 @@
 }
 
 .homeTitle {
-  color: yellow;
+  color: white;
 }
 .horizontal-bar {
   margin: 1.25rem 0;
   width: 100px;
   height: 3px;
-  background-color: yellow;
+  background-color: rgb(199, 66, 199);
 }
 .homeText {
   padding: 1.5rem 4rem;
