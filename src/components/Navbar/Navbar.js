@@ -3,11 +3,13 @@ import "./Navbar.css";
 import logo from "../../assets/logo.jpeg";
 import Menu from "../../assets/menu.png";
 import { Link } from "react-scroll";
+
 const Navbar = () => {
   const [showMenu, setshowMenu] = useState(false);
   return (
-    <nav className="navbar">
+    <div className="navbar">
       <img src={logo} alt="Logo" className="logo" />
+
       <div className="desktopMenu">
         <Link
           activeClass="active"
@@ -31,6 +33,7 @@ const Navbar = () => {
         >
           About
         </Link>
+
         <Link
           activeClass="active"
           to="projects"
@@ -62,6 +65,7 @@ const Navbar = () => {
         className="mobMenu"
         onClick={() => setshowMenu(!showMenu)}
       />
+
       <div className="navMenu" style={{ display: showMenu ? "flex" : "none" }}>
         <Link
           activeClass="active"
@@ -125,7 +129,7 @@ const Navbar = () => {
         </Link>
         <button className="ConsultationBtn">Free Consultation</button>
       </div>
-    </nav>
+    </div>
   );
 };
 

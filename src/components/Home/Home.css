@@ -39,19 +39,18 @@
   letter-spacing: 1px;
 }
 
-@media screen and (max-width: 840px) {
-  .bg {
-    right: -10vw;
-  }
+@media screen and (max-width: 920px) {
   .homeContent {
-    font-size: 10vw;
-  }
-  .hello {
-    font-size: 4.5vw;
+    height: 80vh;
   }
 }
 @media screen and (max-width: 480px) {
-  .bg {
-    right: -20vw;
+  .homeTitle {
+    font-size: 1.6rem;
+    padding: 1.5rem 2rem;
+  }
+  .homeText {
+    font-size: 1.3rem;
+    padding: 1.5rem 2rem;
   }
 }

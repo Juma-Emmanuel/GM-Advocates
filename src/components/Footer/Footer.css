@@ -7,11 +7,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #024677;
 }
+
 .footerContent {
   display: flex;
   flex-direction: row;
-  color: #024677;
+  color: white;
   padding: 5rem;
 }
 .footerText {
@@ -26,6 +28,7 @@
 }
 .contact-address h1 {
   padding-bottom: 1rem;
+  font-weight: bold;
 }
 .contact-address h4 {
   padding-bottom: 0.5rem;
@@ -37,33 +40,57 @@
   justify-content: space-around;
   text-align: center;
   align-items: center;
-  padding: 2.5rem 12rem;
+  padding: 2.5rem 0;
   border-top: 1px solid rgb(184, 174, 174);
-  color: #024677;
+  color: white;
 }
-.socials h4 {
-  margin-right: 2rem;
-}
-.links {
-}
+
 .link {
   object-fit: cover;
   width: 1.9rem;
   margin: 0.6rem;
 }
-@media screen and (max-width: 840px) {
-  .bg {
-    right: -10vw;
+@media screen and (max-width: 1024px) {
+  .footerText {
+    width: fit-content;
   }
-  .homeContent {
-    font-size: 10vw;
+}
+@media screen and (max-width: 768px) {
+  .footerContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    padding: 1rem 2rem;
   }
-  .hello {
-    font-size: 4.5vw;
+  .footerText {
+    width: fit-content;
+    font-size: 2rem;
+  }
+  .contact-address h1 {
+    font-size: 2.6rem;
+  }
+  .socials {
+    flex-direction: column-reverse;
+
+    padding: 1.3rem 0;
+  }
+  .socials h4 {
+    padding-top: 0.9rem;
   }
 }
 @media screen and (max-width: 480px) {
-  .bg {
-    right: -20vw;
+  .footerText {
+    width: fit-content;
+    font-size: medium;
+  }
+  .contact-address h1 {
+    font-size: medium;
+  }
+  .contact-address h4 {
+    font-size: small;
+  }
+  .socials h4 {
+    font-size: medium;
   }
 }

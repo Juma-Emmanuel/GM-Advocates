@@ -43,3 +43,11 @@
   color: #024677;
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 480px) {
+  #about-bg h1 {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    text-align: justify;
+  }
+}
