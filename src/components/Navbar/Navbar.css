@@ -18,17 +18,27 @@
 }
 .desktopMenu {
   padding: 0 7rem;
+  display: flex;
+  flex-direction: row;
 }
 
-.desktopMenuListItem {
-  margin: 1rem;
+.desktopMenuListItem,
+.desktopMenu .practise-area-links {
+  margin: 1rem 1rem 1rem 1rem;
   cursor: pointer;
   font-size: large;
   color: white;
 }
+.desktopMenu .navlink {
+  margin: 1rem 1rem 1rem 1rem;
+  cursor: pointer;
+  font-size: large;
+  color: white;
+}
+
 .desktopMenuListItem:hover {
   color: rgb(199, 66, 199);
-  padding: 0.5rem;
+
   border-bottom: 5px solid rgb(199, 66, 199);
 }
 .ConsultationBtn {

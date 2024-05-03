@@ -1,0 +1,22 @@
+.menus {
+  width: 25vw;
+  background: #024677;
+
+  top: 3vh;
+
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+}
+.menu-link {
+  color: white;
+  padding: 0.5rem 0.3rem;
+  font-size: medium;
+}
+.menu-link:hover {
+  text-decoration: none;
+  background: gray;
+  color: white;
+}

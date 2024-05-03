@@ -3,9 +3,18 @@ import "./Navbar.css";
 import logo from "../../assets/logo.jpeg";
 import Menu from "../../assets/menu.png";
 import { Link } from "react-scroll";
-
+import PracticeAreaLinks from "./PracticeAreaLinks";
 const Navbar = () => {
   const [showMenu, setshowMenu] = useState(false);
+  const [isDropdownVisible, setDropdownVisible] = useState(false);
+
+  const handleMouseEnter = () => {
+    setDropdownVisible(true);
+  };
+
+  const handleMouseLeave = () => {
+    setDropdownVisible(false);
+  };
   return (
     <div className="navbar">
       <img src={logo} alt="Logo" className="logo" />
@@ -34,17 +43,25 @@ const Navbar = () => {
           About
         </Link>
 
-        <Link
-          activeClass="active"
-          to="projects"
-          spy={true}
-          smooth={true}
-          offset={-50}
-          duration={600}
-          className="desktopMenuListItem"
+        <div
+          className="practise-area-links"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          style={{
+            position: "relative",
+          }}
         >
-          Practice Areas
-        </Link>
+          <h className="navlink">Practice Areas</h>
+          {isDropdownVisible && (
+            <div
+              style={{
+                position: "absolute",
+              }}
+            >
+              <PracticeAreaLinks />
+            </div>
+          )}
+        </div>
         <Link
           activeClass="active"
           to="clients"
