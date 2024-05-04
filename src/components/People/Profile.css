@@ -61,7 +61,6 @@
   .profile-content {
     height: 100%;
     width: 100%;
-    /* padding: 3rem 1rem; */
   }
   .profile-content .about {
     width: 100%;
@@ -82,10 +81,8 @@
   }
   .profile-content h1 {
     font-size: 2rem;
-    /* padding: 1rem 0; */
   }
   .profile-content .about {
-    /* padding-top: 1rem; */
     color: #024677;
     font-size: 1.3rem;
     width: 100%;

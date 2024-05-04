@@ -1,7 +1,7 @@
 import React from "react";
 import profileImg from "../../assets/lawyer.jpg";
 import "./Profile.css";
-const Profile = ({ name, about }) => {
+const Profile = ({ name, about, position }) => {
   return (
     <section id="profile">
       <div className="profile-img-div">
@@ -9,7 +9,7 @@ const Profile = ({ name, about }) => {
       </div>
       <div className="profile-content">
         <h1>{name}</h1>
-        <p className="position">position</p>
+        <p className="position">{position}</p>
         <p className="about">{about}</p>
       </div>
     </section>
