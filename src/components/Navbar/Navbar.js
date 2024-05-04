@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="desktopMenu">
         <Link
           activeClass="active"
-          to="home"
+          to="/"
           spy={true}
           smooth={true}
           offset={-100}
@@ -84,15 +84,12 @@ const Navbar = () => {
         >
           Contact Us
         </Link>
+        <button className="ConsultationBtn">Free Consultation</button>
       </div>
-      <button className="ConsultationBtn">Free Consultation</button>
 
-      <img
-        src={Menu}
-        alt="Menu"
-        className="mobMenu"
-        onClick={() => setshowMenu(!showMenu)}
-      />
+      <div className="mobMenu" onClick={() => setshowMenu(!showMenu)}>
+        {showMenu ? <h className="closeBtn">X</h> : <i class="fa fa-bars"></i>}
+      </div>
 
       <div className="navMenu" style={{ display: showMenu ? "flex" : "none" }}>
         <Link
@@ -109,7 +106,7 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          to="skills"
+          to="/"
           spy={true}
           smooth={true}
           offset={-50}
@@ -119,9 +116,32 @@ const Navbar = () => {
         >
           About
         </Link>
+        <div
+          className="pract-navlink"
+          onClick={() => setDropdownVisible(!isDropdownVisible)}
+          style={{
+            position: "relative",
+          }}
+        >
+          <div className="pract-link">
+            <h>Practice Areas</h>
+            {isDropdownVisible ? (
+              <i class="fa fa-angle-up"></i>
+            ) : (
+              <i class="fa fa-angle-down"></i>
+            )}
+          </div>
+
+          {isDropdownVisible && (
+            <div>
+              <PracticeAreaLinks />
+            </div>
+          )}
+        </div>
+
         <Link
           activeClass="active"
-          to="projects"
+          to="/our-people/"
           spy={true}
           smooth={true}
           offset={-50}
@@ -129,11 +149,11 @@ const Navbar = () => {
           className="listItem"
           onClick={() => setshowMenu(false)}
         >
-          Practise Areas
+          Our People
         </Link>
         <Link
           activeClass="active"
-          to="clients"
+          to="careers"
           spy={true}
           smooth={true}
           offset={-50}
@@ -141,7 +161,19 @@ const Navbar = () => {
           className="listItem"
           onClick={() => setshowMenu(false)}
         >
-          Contact
+          Careers
+        </Link>
+        <Link
+          activeClass="active"
+          to="reviews"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={600}
+          className="listItem"
+          onClick={() => setshowMenu(false)}
+        >
+          Reviews
         </Link>
         <Link
           activeClass="active"
@@ -153,7 +185,7 @@ const Navbar = () => {
           className="listItem"
           onClick={() => setshowMenu(false)}
         >
-          Contact
+          Contact Us
         </Link>
         <button className="ConsultationBtn">Free Consultation</button>
       </div>
