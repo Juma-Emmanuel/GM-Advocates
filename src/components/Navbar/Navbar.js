@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.jpeg";
 import Menu from "../../assets/menu.png";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import PracticeAreaLinks from "./PracticeAreaLinks";
 const Navbar = () => {
   const [showMenu, setshowMenu] = useState(false);
@@ -64,6 +64,17 @@ const Navbar = () => {
         </div>
         <Link
           activeClass="active"
+          to="/our-people/"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={600}
+          className="desktopMenuListItem"
+        >
+          Our people
+        </Link>
+        <Link
+          activeClass="active"
           to="clients"
           spy={true}
           smooth={true}
@@ -71,7 +82,7 @@ const Navbar = () => {
           duration={600}
           className="desktopMenuListItem"
         >
-          Contact
+          Contact Us
         </Link>
       </div>
       <button className="ConsultationBtn">Free Consultation</button>

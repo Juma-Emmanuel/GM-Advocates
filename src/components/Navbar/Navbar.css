@@ -37,9 +37,11 @@
 }
 
 .desktopMenuListItem:hover {
-  color: rgb(199, 66, 199);
+  /* color: rgb(199, 66, 199); */
+  text-decoration: none;
 
-  border-bottom: 5px solid rgb(199, 66, 199);
+  color: white;
+  border-bottom: 2px solid rgb(199, 66, 199);
 }
 .ConsultationBtn {
   border: 1px solid white;

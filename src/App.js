@@ -8,7 +8,8 @@ import CorporateCommercial from "./components/Practise/CorporateCommercial";
 import RealEstateProperty from "./components/Practise/RealEstateProperty";
 import AviationLawPractise from "./components/Practise/AviationLawPractise";
 import ProcurementLaw from "./components/Practise/ProcurementLaw";
-
+import People from "./components/People/People";
+import JohnDoe from "./pages/JohnDoe";
 function App() {
   return (
     <div className="App">
@@ -35,6 +36,8 @@ function App() {
             element={<AviationLawPractise />}
           />
           <Route path="/procurement-law/" element={<ProcurementLaw />} />
+          <Route path="/our-people/" element={<People />} />
+          <Route path="/john-doe/" element={<JohnDoe />} />
         </Routes>
       </Router>
     </div>
