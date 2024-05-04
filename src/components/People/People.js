@@ -23,6 +23,7 @@ function People() {
         />
         <PersonCard
           profilePic={ProfilePic}
+          profileLink="/john-doe/"
           firstName="John"
           lastName="Doe"
           position="Secretary"
@@ -30,6 +31,7 @@ function People() {
         />
         <PersonCard
           profilePic={ProfilePic}
+          profileLink="/john-doe/"
           firstName="John"
           lastName="Doe"
           position="Secretary"
@@ -37,6 +39,7 @@ function People() {
         />
         <PersonCard
           profilePic={ProfilePic}
+          profileLink="/john-doe/"
           firstName="John"
           lastName="Doe"
           position="Secretary"
@@ -44,6 +47,7 @@ function People() {
         />
         <PersonCard
           profilePic={ProfilePic}
+          profileLink="/john-doe/"
           firstName="John"
           lastName="Doe"
           position="Secretary"
@@ -51,6 +55,7 @@ function People() {
         />
         <PersonCard
           profilePic={ProfilePic}
+          profileLink="/john-doe/"
           firstName="John"
           lastName="Doe"
           position="Secretary"
