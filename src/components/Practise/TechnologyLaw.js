@@ -10,7 +10,7 @@ function TechnologyLaw() {
     <section className="practise-area">
       <Navbar />
       <PractiseAreaBg
-        myString={"Technology, Intellectual Property (IP) & Internet Law"}
+        title={"Technology, Intellectual Property (IP) & Internet Law"}
       />
       <div className="practise-area-content">
         <div className="main-area">

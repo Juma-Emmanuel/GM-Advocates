@@ -10,6 +10,10 @@ import AviationLawPractise from "./components/Practise/AviationLawPractise";
 import ProcurementLaw from "./components/Practise/ProcurementLaw";
 import People from "./components/People/People";
 import JohnDoe from "./pages/JohnDoe";
+import Catherine from "./pages/Catherine";
+import John from "./pages/John";
+import Godffrey from "./pages/Godffrey";
+import Andrew from "./pages/Andrew";
 function App() {
   return (
     <div className="App">
@@ -38,6 +42,10 @@ function App() {
           <Route path="/procurement-law/" element={<ProcurementLaw />} />
           <Route path="/our-people/" element={<People />} />
           <Route path="/john-doe/" element={<JohnDoe />} />
+          <Route path="/our-people/catherine-mwinzi/" element={<Catherine />} />
+          <Route path="/our-people/john-wekesa/" element={<John />} />
+          <Route path="/our-people/godfrey-orina/" element={<Godffrey />} />
+          <Route path="/our-people/andrew-wanga/" element={<Andrew />} />
         </Routes>
       </Router>
     </div>

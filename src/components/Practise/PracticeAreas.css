@@ -78,3 +78,51 @@
   padding-right: 0.9rem;
   color: rgb(199, 66, 199);
 }
+
+@media screen and (max-width: 1024px) {
+  .practise-area-content {
+    flex-direction: column;
+  }
+  .horizontal-bar {
+    margin: 0.5rem 0;
+  }
+  .main-area {
+    align-items: center;
+  }
+  .main-area h1 {
+    padding: 1rem 0;
+    font-size: xx-large;
+  }
+  .main-area-text {
+    width: 80vw;
+  }
+  .img {
+    object-fit: cover;
+    width: 80vw;
+    height: 60vw;
+  }
+  .img-container {
+    padding: 5px;
+  }
+  .focus-areas {
+    width: 80vw;
+  }
+  .focus-areas h1 {
+    padding: 1rem 0;
+    font-size: x-large;
+  }
+}
+@media screen and (max-width: 480px) {
+  .practise-area-content {
+    justify-content: center;
+  }
+
+  .main-area h1 {
+    padding: 1rem 0;
+    font-size: x-large;
+  }
+
+  .img-container {
+    padding: 5px;
+  }
+}

@@ -23,16 +23,16 @@ function PracticeAreaLinks() {
         Procurement Law{" "}
       </Link>
 
-      <Link to="home" className="menu-link">
+      <Link to="/" className="menu-link">
         IT, Data Protection & Crypto{" "}
       </Link>
-      <Link to="home" className="menu-link">
+      <Link to="/" className="menu-link">
         Family, Marriage & Succession{" "}
       </Link>
-      <Link to="home" className="menu-link">
+      <Link to="/" className="menu-link">
         Notarial Services & Certificates{" "}
       </Link>
-      <Link to="home" className="menu-link">
+      <Link to="/" className="menu-link">
         Investment & Franchise{" "}
       </Link>
     </div>

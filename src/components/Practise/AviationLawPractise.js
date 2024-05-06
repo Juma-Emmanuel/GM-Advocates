@@ -28,7 +28,6 @@ function AviationLawPractise() {
         <div className="focus-areas">
           <div className="horizontal-bar"></div>
           <h1>Our Aviation Services</h1>
-
           <div className="focus-area">
             <i className="fa fa-caret-right"></i>
             <h7>Fleet procurement</h7>

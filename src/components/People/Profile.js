@@ -1,7 +1,6 @@
 import React from "react";
-import profileImg from "../../assets/lawyer.jpg";
 import "./Profile.css";
-const Profile = ({ name, about, position }) => {
+const Profile = ({ profileImg, name, about, position }) => {
   return (
     <section id="profile">
       <div className="profile-img-div">

@@ -3,7 +3,7 @@ import "./PractiseAreaBg.css";
 function PractiseAreaBg({ title }) {
   return (
     <div className="top-bg">
-      <h1>{title}</h1>
+      <h>{title}</h>
     </div>
   );
 }

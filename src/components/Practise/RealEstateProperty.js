@@ -9,7 +9,7 @@ function RealEstateProperty() {
   return (
     <section className="practise-area">
       <Navbar />
-      <PractiseAreaBg title={"Procurement Law"} />
+      <PractiseAreaBg title={"Real Estate & Property Law"} />
       <div className="practise-area-content">
         <div className="main-area">
           <div className="horizontal-bar"></div>
