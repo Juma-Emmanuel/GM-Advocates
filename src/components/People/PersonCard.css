@@ -42,3 +42,12 @@
   text-decoration: none;
   font-weight: bolder;
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 18rem;
+  }
+  .profile-pic {
+    height: 19rem;
+  }
+}
