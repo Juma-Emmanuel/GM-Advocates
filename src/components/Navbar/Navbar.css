@@ -37,7 +37,6 @@
 }
 
 .desktopMenuListItem:hover {
-  /* color: rgb(199, 66, 199); */
   text-decoration: none;
 
   color: white;
@@ -65,13 +64,12 @@
 }
 .mobMenu {
   display: none;
-  object-fit: cover;
-  height: 1.8rem;
 }
 .closeBtn,
 .mobMenu i {
-  font-size: larger;
-  font-weight: bolder;
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
 }
 .navMenu {
   position: absolute;
@@ -121,13 +119,13 @@
 }
 
 @media screen and (max-width: 920px) {
-  .navbar {
-    padding: 0rem 3rem;
-    justify-content: space-between;
-    /* top: 10px; */
+  .logo {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
   }
   .mobMenu {
-    display: block;
+    display: flex;
   }
   .desktopMenu,
   .ConsultationBtn {

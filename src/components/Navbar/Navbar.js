@@ -3,6 +3,7 @@ import "./Navbar.css";
 import logo from "../../assets/logo.jpeg";
 import { Link } from "react-router-dom";
 import PracticeAreaLinks from "./PracticeAreaLinks";
+
 const Navbar = () => {
   const [showMenu, setshowMenu] = useState(false);
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -87,7 +88,14 @@ const Navbar = () => {
       </div>
 
       <div className="mobMenu" onClick={() => setshowMenu(!showMenu)}>
-        {showMenu ? <h className="closeBtn">X</h> : <i class="fa fa-bars"></i>}
+        {
+          showMenu ? (
+            <i className="bi bi-x-lg"></i>
+          ) : (
+            <i className="bi bi-list"></i>
+          )
+          //  <i class="fa fa-bars"></i>
+        }
       </div>
 
       <div className="navMenu" style={{ display: showMenu ? "flex" : "none" }}>
