@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.jpeg";
-import Menu from "../../assets/menu.png";
 import { Link } from "react-router-dom";
 import PracticeAreaLinks from "./PracticeAreaLinks";
 const Navbar = () => {
