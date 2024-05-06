@@ -1,7 +1,8 @@
-import React from "react";
-
-import "./PersonCard.css"; // Import your CSS file for styling
+import { React } from "react";
 import { Link } from "react-router-dom";
+
+import "./PersonCard.css";
+
 const PersonCard = ({
   profilePic,
   firstName,
@@ -18,7 +19,7 @@ const PersonCard = ({
           {firstName} {lastName}
         </h2>
         <p className="position">{position}</p>
-        <Link to={profileLink} className="view-more">
+        <Link to={profileLink} state={{ smooth: true }} className="view-more">
           View More
         </Link>
       </div>
