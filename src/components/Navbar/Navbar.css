@@ -11,6 +11,11 @@
   top: 0;
   z-index: 3;
 }
+.name-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .logo {
   object-fit: cover;
   height: 6rem;

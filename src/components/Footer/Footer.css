@@ -25,13 +25,23 @@
 .contact-address {
   display: flex;
   flex-direction: column;
+  align-items: start;
 }
 .contact-address h1 {
   padding-bottom: 1rem;
   font-weight: bold;
 }
-.contact-address h4 {
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   padding-bottom: 0.5rem;
+}
+.contact-item i {
+  font-size: xx-large;
+  padding-right: 1.3rem;
 }
 .socials {
   display: flex;
@@ -89,6 +99,10 @@
   }
   .contact-address h4 {
     font-size: small;
+  }
+  .contact-item i {
+    font-size: x-large;
+    padding-right: 1.3rem;
   }
   .socials h4 {
     font-size: medium;

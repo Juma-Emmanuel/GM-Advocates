@@ -3,25 +3,25 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
-  align-items: end;
+  align-items: center;
   justify-content: center;
-  padding-bottom: 8rem;
+
   margin: 0 auto;
   background-color: white;
 }
 .about-img {
   object-fit: cover;
-  width: 33rem;
-  /* border-radius: 20px; */
-  height: 55rem;
+
+  width: 40vw;
+  height: auto;
 }
 .about-content {
-  height: 100%;
   display: flex;
   flex-direction: column;
 
-  width: 53rem;
   padding: 7rem 6rem;
+  width: 40vw;
+  height: auto;
 }
 .about-content h1 {
   font-size: 3rem;
@@ -40,32 +40,36 @@
   font-size: 2rem;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1200px) {
   #about {
-    height: 80vh;
+    height: fit-content;
+    justify-content: space-evenly;
+    padding: 3rem 0;
   }
   .about-img {
-    width: 24rem;
+    width: 40vw;
+    height: auto;
   }
   .about-content {
-    height: 100%;
-    width: 100%;
-    padding: 3rem 1rem;
-  }
-  .about-content p {
-    padding-top: 1rem;
+    width: 40vw;
+    height: auto;
+    padding: 1rem 1rem;
   }
 }
 @media screen and (max-width: 768px) {
   #about {
-    height: 70vh;
+    height: fit-content;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem 0;
   }
   .about-img {
-    width: 20rem;
-    height: 41rem;
+    width: 80vw;
+    height: auto;
   }
   .about-content {
-    height: 100%;
+    height: fit-content;
     width: 100%;
     padding: 1rem 2rem;
   }
@@ -80,15 +84,6 @@
   }
 }
 @media screen and (max-width: 480px) {
-  #about {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    background-color: white;
-    padding-bottom: 1rem;
-  }
   .about-img {
     width: 21rem;
     height: 20rem;

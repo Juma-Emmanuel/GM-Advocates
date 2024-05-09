@@ -1,8 +1,10 @@
 .menus {
-  width: 25vw;
+  /* width: 25vw; */
+  width: fit-content;
   background: #024677;
-
   top: 3vh;
+  height: 43vh;
+  overflow-y: scroll;
 
   padding-top: 2.5rem;
   display: flex;
