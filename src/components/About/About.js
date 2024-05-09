@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "../../assets/law-justice.jpg";
+import aboutImg from "../../assets/advance-materials.jpg";
 function About() {
   return (
     <section id="about">

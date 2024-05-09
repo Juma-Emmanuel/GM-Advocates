@@ -17,7 +17,10 @@ const Navbar = () => {
   };
   return (
     <div className="navbar">
-      <img src={logo} alt="Logo" className="logo" />
+      <div className="name-logo">
+        <img src={logo} alt="Logo" className="logo" />
+        <h>G.M ORINA & Co. ADVOCATES</h>
+      </div>
 
       <div className="desktopMenu">
         <Link
@@ -88,14 +91,11 @@ const Navbar = () => {
       </div>
 
       <div className="mobMenu" onClick={() => setshowMenu(!showMenu)}>
-        {
-          showMenu ? (
-            <i className="bi bi-x-lg"></i>
-          ) : (
-            <i className="bi bi-list"></i>
-          )
-          //  <i class="fa fa-bars"></i>
-        }
+        {showMenu ? (
+          <i className="bi bi-x-lg"></i>
+        ) : (
+          <i className="bi bi-list"></i>
+        )}
       </div>
 
       <div className="navMenu" style={{ display: showMenu ? "flex" : "none" }}>

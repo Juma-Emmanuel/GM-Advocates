@@ -14,13 +14,29 @@ function Footer() {
         </h1>
         <div className="contact-address">
           <h1>Contact us</h1>
-          <h4>
-            Office Address: Krishna Centre, 6th Floor,
-            <br /> Woodvale Groove, Westlands
-          </h4>
-          <h4>P.O Box 33499-00600, Nairobi.</h4>
-          <h4>Tel: +254 712 694 826, +254 743 222 757</h4>
-          <h4>Email: godfreynuru@gmail.com</h4>
+          <div className="contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <h4>
+              Krishna Centre, 7th Floor, Suite 712
+              <br /> Woodvale Groove, Westlands
+            </h4>
+          </div>
+          <div className="contact-item">
+            <i class="bi bi-envelope-open-fill"></i>
+            <h4>P.O Box 33499-00600, Nairobi.</h4>{" "}
+          </div>
+
+          <div className="contact-item">
+            <i class="bi bi-telephone-fill"></i>{" "}
+            <h4>
+              +254 712 694 826 <br /> +254 743 222 757
+            </h4>{" "}
+          </div>
+
+          <div className="contact-item">
+            <i className="bi bi-envelope-fill"></i>
+            <h4> godfreynuru@gmail.com</h4>{" "}
+          </div>
         </div>
       </div>
       <div className="socials">
