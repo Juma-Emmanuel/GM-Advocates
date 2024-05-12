@@ -85,9 +85,9 @@ const Navbar = () => {
           duration={600}
           className="desktopMenuListItem"
         >
-          Contact Us 
+          Contact Us
         </Link>
-        <button className="ConsultationBtn">Get in Touch</button>
+        <button className="ConsultationBtn">Free Consultation</button>
       </div>
 
       <div className="mobMenu" onClick={() => setshowMenu(!showMenu)}>
@@ -194,7 +194,7 @@ const Navbar = () => {
         >
           Contact Us
         </Link>
-        <button className="ConsultationBtn">Get in Touch</button>
+        <button className="ConsultationBtn">Free Consultation</button>
       </div>
     </div>
   );
