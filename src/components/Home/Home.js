@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Home.css";
 import sliderImage from "../../assets/Litigation-and-Dispute-Resolution.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,61 +9,148 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import logo from "../../assets/logo.jpeg";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
+import { motion } from "framer-motion";
+import { fadeIn } from "../../variants";
+import corevalueImg from "../../assets/core-value.png";
 function Home() {
-  useEffect(() => {
-    AOS.init({ duration: 3000 });
-  }, []);
-
   return (
     <section id="home" className="home">
       <Swiper
-        onSlideChange={AOS.refresh()}
         modules={[Navigation, Pagination, Autoplay]}
         navigation
         pagination={{ clickable: true }}
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 10000 }}
         slidesPerView={1}
       >
         <SwiperSlide>
           <div className="slide">
-            <img
-              data-aos="fade-right"
-              className="slideimg"
-              src={sliderImage}
-              alt="sliderimage"
-            ></img>
+            <motion.div
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+            >
+              <img
+                className="slideimg"
+                src={sliderImage}
+                alt="sliderimage"
+              ></img>
+            </motion.div>
             <div className="slidecontent">
-              <h data-aos="fade-down">
+              <motion.h
+                variants={fadeIn("right", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+              >
                 Count on us for reliable legal support. Our goal is to achieve
                 favorable outcomes for all our clients.
-              </h>
-              <button data-aos="fade-left" className="slideBtn">
+              </motion.h>
+
+              <motion.button
+                variants={fadeIn("left", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="slideBtn"
+              >
                 Free Consultation
-              </button>
+              </motion.button>
             </div>
           </div>{" "}
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="slide">
-            <img
-              data-aos="fade-right"
-              className="slideimg"
-              src={logo}
-              alt="sliderimage"
-            ></img>
+            <motion.div
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+            >
+              <img className="slideimg" src={logo} alt="sliderimage"></img>
+            </motion.div>
             <div className="slidecontent">
-              <h data-aos="fade-down">
+              <motion.h
+                variants={fadeIn("right", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+              >
                 Step into a world of legal excellence with G.M ORINA & Co.
                 ADVOCATES.We stand as your trusted partner in navigating the
                 legal landscape.
-              </h>
-              <button data-aos="fade-left" className="slideBtn">
+              </motion.h>
+              <motion.button
+                variants={fadeIn("left", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="slideBtn"
+              >
                 Contact Us
-              </button>
+              </motion.button>
+            </div>
+          </div>{" "}
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide">
+            <motion.div
+              className="valueimg"
+              variants={fadeIn("left", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+            >
+              <img
+                className="slideimg"
+                src={corevalueImg}
+                alt="sliderimage"
+              ></img>
+            </motion.div>
+            <div className="slidecontent">
+              <motion.div
+                variants={fadeIn("right", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+              >
+                <div className="value-item">
+                  <i class="bi bi-patch-check-fill"></i>
+                  <h>Effectiveness</h>
+                  <p>
+                    We recognize that our client's concerns are crucial. We are
+                    quick to respond to their concerns and act upon them
+                    promptly.
+                  </p>
+                </div>
+                <div className="value-item">
+                  <i class="bi bi-award-fill"></i>
+                  <h>Perfomance Excellence</h>
+                  <p>
+                    We are responsible professionals. We strive to meet and even
+                    exceed Client expectations.
+                  </p>
+                </div>
+                <div className="value-item">
+                  <i class="bi bi-shield-fill-check"></i>
+                  <h>Integrity</h>
+                  <p>
+                    We recognize that long-lasting and succesfull business
+                    relationships are built on integrity, which is one of our
+                    core values.
+                  </p>
+                </div>
+              </motion.div>
+              <motion.button
+                variants={fadeIn("left", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="slideBtn"
+              >
+                Contact Us
+              </motion.button>
             </div>
           </div>{" "}
         </SwiperSlide>

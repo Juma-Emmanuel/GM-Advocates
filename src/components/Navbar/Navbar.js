@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../../assets/logo.jpeg";
 import { Link } from "react-router-dom";
 import PracticeAreaLinks from "./PracticeAreaLinks";
-
+import { motion } from "framer-motion";
 const Navbar = () => {
   const [showMenu, setshowMenu] = useState(false);
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -17,12 +17,23 @@ const Navbar = () => {
   };
   return (
     <div className="navbar">
-      <div className="name-logo">
+      <motion.div
+        initial={{ x: "-30vw" }}
+        animate={{ x: 0 }}
+        transition={{ type: "spring", duration: 4 }}
+        className="name-logo"
+      >
         <img src={logo} alt="Logo" className="logo" />
         <h>G.M ORINA & Co. ADVOCATES</h>
-      </div>
+      </motion.div>
 
-      <div className="desktopMenu">
+      <motion.div
+        initial={{ y: "-30vh" }}
+        animate={{ y: 0 }}
+        n
+        transition={{ type: "spring", duration: 4 }}
+        className="desktopMenu"
+      >
         <Link
           activeClass="active"
           to="/"
@@ -88,7 +99,7 @@ const Navbar = () => {
           Contact Us
         </Link>
         <button className="ConsultationBtn">Free Consultation</button>
-      </div>
+      </motion.div>
 
       <div className="mobMenu" onClick={() => setshowMenu(!showMenu)}>
         {showMenu ? (

@@ -70,6 +70,16 @@
   letter-spacing: 1px;
   color: aqua;
 }
+.value-item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.value-item i {
+  color: #024677;
+  font-size: xx-large;
+}
 @media screen and (max-width: 1200px) {
   .slideimg {
     width: 30vw;
@@ -90,8 +100,14 @@
     width: 60vw;
     height: auto;
   }
+  .valueimg {
+    display: none;
+  }
   .slidecontent {
     width: 60vw;
+  }
+  .value-item i {
+    font-size: x-large;
   }
 }
 @media screen and (max-width: 480px) {

@@ -1,5 +1,6 @@
-import { type } from "@testing-library/user-event/dist/type";
 export const fadeIn = (direction, delay) => {
+  const isSmall = useMediaQuery("(max-width: 480px)");
+
   return {
     hidden: {
       y: direction === "up" ? "-30vh" : direction === "down" ? "-10vh" : 0,
