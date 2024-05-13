@@ -46,13 +46,6 @@ function People() {
           lastName="Wekesa"
           position="Senior Partner"
         />
-        <PersonCard
-          profilePic={ProfilePic}
-          profileLink="/john-doe/"
-          firstName="John"
-          lastName="Doe"
-          position="Secretary"
-        />
       </div>
       <Contact />
       <Footer />

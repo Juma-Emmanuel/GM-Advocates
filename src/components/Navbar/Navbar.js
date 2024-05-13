@@ -24,7 +24,7 @@ const Navbar = () => {
         className="name-logo"
       >
         <img src={logo} alt="Logo" className="logo" />
-        <h>G.M ORINA & Co. ADVOCATES</h>
+        <h>G.M ORINA & CO. ADVOCATES</h>
       </motion.div>
 
       <motion.div
@@ -98,7 +98,7 @@ const Navbar = () => {
         >
           Contact Us
         </Link>
-        <button className="ConsultationBtn">Free Consultation</button>
+        <button className="ConsultationBtn">Get in Touch</button>
       </motion.div>
 
       <div className="mobMenu" onClick={() => setshowMenu(!showMenu)}>
@@ -205,7 +205,7 @@ const Navbar = () => {
         >
           Contact Us
         </Link>
-        <button className="ConsultationBtn">Free Consultation</button>
+        <button className="ConsultationBtn">Get in Touch</button>
       </div>
     </div>
   );

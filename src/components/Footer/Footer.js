@@ -27,15 +27,12 @@ function Footer() {
           </div>
 
           <div className="contact-item">
-            <i class="bi bi-telephone-fill"></i>{" "}
-            <h4>
-              +254 712 694 826 <br /> +254 743 222 757
-            </h4>{" "}
+            <i class="bi bi-telephone-fill"></i> <h4>+254 712 694 826</h4>{" "}
           </div>
 
           <div className="contact-item">
             <i className="bi bi-envelope-fill"></i>
-            <h4> godfreynuru@gmail.com</h4>{" "}
+            <h4> gmorinaadvocates@gmail.com</h4>{" "}
           </div>
         </div>
       </div>

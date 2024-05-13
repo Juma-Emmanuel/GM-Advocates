@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import sliderImage from "../../assets/Litigation-and-Dispute-Resolution.jpg";
+import sliderImage from "../../assets/slide1.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -11,7 +11,7 @@ import "swiper/css/autoplay";
 import logo from "../../assets/logo.jpeg";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
-import corevalueImg from "../../assets/core-value.png";
+import corevalueImg from "../../assets/core-value.jpeg";
 function Home() {
   return (
     <section id="home" className="home">
@@ -54,7 +54,7 @@ function Home() {
                 viewport={{ once: false, amount: 0.7 }}
                 className="slideBtn"
               >
-                Free Consultation
+                Get In Touch
               </motion.button>
             </div>
           </div>{" "}
