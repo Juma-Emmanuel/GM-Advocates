@@ -1,7 +1,6 @@
 import React from "react";
 import "./People.css";
 import PersonCard from "./PersonCard";
-
 import OurPeopleBg from "./OurPeopleBg";
 import Navbar from "../Navbar/Navbar";
 import Contact from "../Contact/Contact";
