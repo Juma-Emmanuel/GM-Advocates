@@ -22,7 +22,7 @@
   width: 6rem;
 }
 .desktopMenu {
-  padding: 0 7rem;
+  padding: 0 3vw;
   display: flex;
   flex-direction: row;
 }
@@ -35,7 +35,7 @@
   color: white;
 }
 .desktopMenu .navlink {
-  margin: 1rem 1rem 1rem 1rem;
+  /* margin: 1rem; */
   cursor: pointer;
   font-size: large;
   color: white;
@@ -47,21 +47,7 @@
   color: white;
   border-bottom: 2px solid rgb(199, 66, 199);
 }
-.ConsultationBtn {
-  border: 1px solid white;
-  border-radius: 20px;
-  padding: 0 0.8rem;
-  font-weight: 500;
-  color: white;
 
-  transition: transform 0.3s ease;
-}
-.ConsultationBtn:hover {
-  background: white;
-  color: #024677;
-
-  transform: scale(1.1);
-}
 .active {
   color: rgb(199, 66, 199);
   padding-bottom: 0.5rem;
@@ -87,7 +73,6 @@
   padding-left: 2rem;
   max-height: 80vh;
   width: 100%;
-
   overflow-y: scroll;
   background: white;
   border-radius: 1rem;
@@ -123,7 +108,7 @@
   }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1024px) {
   .logo {
     object-fit: cover;
     height: 3rem;

@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contact.css";
 function Contact() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section id="contact">
       <h3>Don't Wait Any Longer</h3>

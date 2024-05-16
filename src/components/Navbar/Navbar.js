@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.jpeg";
 import { Link } from "react-router-dom";
 import PracticeAreaLinks from "./PracticeAreaLinks";
 import { motion } from "framer-motion";
+import { Link as ScrollLink } from "react-scroll";
 const Navbar = () => {
   const [showMenu, setshowMenu] = useState(false);
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -14,6 +15,12 @@ const Navbar = () => {
 
   const handleMouseLeave = () => {
     setDropdownVisible(false);
+  };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
   };
   return (
     <div className="navbar">
@@ -45,7 +52,7 @@ const Navbar = () => {
         >
           Home{" "}
         </Link>
-        <Link
+        <ScrollLink
           activeClass="active"
           to="about"
           spy={true}
@@ -55,7 +62,7 @@ const Navbar = () => {
           className="desktopMenuListItem"
         >
           About
-        </Link>
+        </ScrollLink>
 
         <div
           className="practise-area-links"
@@ -65,7 +72,7 @@ const Navbar = () => {
             position: "relative",
           }}
         >
-          <h className="navlink">Practice Areas</h>
+          <span className="navlink">Practice Areas</span>
           {isDropdownVisible && (
             <div
               style={{
@@ -87,9 +94,9 @@ const Navbar = () => {
         >
           Our people
         </Link>
-        <Link
+        <ScrollLink
           activeClass="active"
-          to="clients"
+          to="contact"
           spy={true}
           smooth={true}
           offset={-50}
@@ -97,8 +104,7 @@ const Navbar = () => {
           className="desktopMenuListItem"
         >
           Contact Us
-        </Link>
-        <button className="ConsultationBtn">Get in Touch</button>
+        </ScrollLink>
       </motion.div>
 
       <div className="mobMenu" onClick={() => setshowMenu(!showMenu)}>

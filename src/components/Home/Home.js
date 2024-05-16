@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
 import sliderImage from "../../assets/slide1.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,7 +12,14 @@ import logo from "../../assets/logo.jpeg";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 import corevalueImg from "../../assets/core-value.jpeg";
+import { Link as ScrollLink } from "react-scroll";
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
   return (
     <section id="home" className="home">
       <Swiper
@@ -54,7 +61,15 @@ function Home() {
                 viewport={{ once: false, amount: 0.7 }}
                 className="slideBtn"
               >
-                Get In Touch
+                <ScrollLink
+                  to="message"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={600}
+                >
+                  Get In Touch
+                </ScrollLink>
               </motion.button>
             </div>
           </div>{" "}
@@ -88,7 +103,15 @@ function Home() {
                 viewport={{ once: false, amount: 0.7 }}
                 className="slideBtn"
               >
-                Contact Us
+                <ScrollLink
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={600}
+                >
+                  Contact Us
+                </ScrollLink>
               </motion.button>
             </div>
           </div>{" "}
@@ -149,7 +172,15 @@ function Home() {
                 viewport={{ once: false, amount: 0.7 }}
                 className="slideBtn"
               >
-                Contact Us
+                <ScrollLink
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={600}
+                >
+                  Contact Us
+                </ScrollLink>
               </motion.button>
             </div>
           </div>{" "}
