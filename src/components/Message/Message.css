@@ -27,12 +27,32 @@
   flex-direction: row;
 }
 .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 30rem;
   border-radius: 15px;
   background-color: white;
   box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
   height: auto;
 }
+.success-response {
+  background-color: #1ca55c;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+}
+.error-response {
+  background-color: #a72312;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+}
+
 .msgtext {
   width: 30rem;
   height: auto;
