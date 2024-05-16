@@ -13,10 +13,6 @@ function Contact() {
         <i className="fa fa-phone"></i>
         <h2>+254 712 694 826</h2>
       </div>
-      <div className="phone">
-        <i className="fa fa-phone"></i>
-        <h2>+254 743 222 757</h2>
-      </div>
     </section>
   );
 }

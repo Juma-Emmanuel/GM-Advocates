@@ -7,7 +7,6 @@ import About from "../components/About/About";
 import Contact from "../components/Contact/Contact";
 import Review from "../components/Review/Review";
 import Message from "../components/Message/Message";
-// import Message from "../components/Message/Message";
 
 function HomePage() {
   return (
@@ -17,7 +16,6 @@ function HomePage() {
       <About />
       <AboutBg />
       <Review />
-      {/* <Message /> */}
       <Message />
       <Contact />
       <Footer />
