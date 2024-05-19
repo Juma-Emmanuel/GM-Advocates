@@ -14,6 +14,7 @@ import John from "./pages/John";
 import Godffrey from "./pages/Godffrey";
 import Andrew from "./pages/Andrew";
 import ScrollToTop from "./ScrollToTop";
+import Careers from "./pages/Careers";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />
-
+          <Route path="/careers/" element={<Careers />} />
           <Route path="/procurement-law/" element={<ProcurementLaw />} />
           <Route path="/litigation-dispute/" element={<Litigation />} />
           <Route

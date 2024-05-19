@@ -94,6 +94,17 @@ const Navbar = () => {
         >
           Our people
         </Link>
+        <Link
+          activeClass="active"
+          to="/careers/"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={600}
+          className="desktopMenuListItem"
+        >
+          Careers
+        </Link>
         <ScrollLink
           activeClass="active"
           to="contact"
