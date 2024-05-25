@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import PracticeAreaLinks from "./PracticeAreaLinks";
 import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
-const Navbar = () => {
+const Navbar = ({ HomeLinkToRender }) => {
   const [showMenu, setshowMenu] = useState(false);
   const [isDropdownVisible, setDropdownVisible] = useState(false);
 
@@ -41,7 +41,7 @@ const Navbar = () => {
         transition={{ type: "spring", duration: 4 }}
         className="desktopMenu"
       >
-        <Link
+        {/* <Link
           activeClass="active"
           to="/"
           spy={true}
@@ -51,7 +51,8 @@ const Navbar = () => {
           className="desktopMenuListItem"
         >
           Home{" "}
-        </Link>
+        </Link> */}
+        {HomeLinkToRender && <HomeLinkToRender />}
         <ScrollLink
           activeClass="active"
           to="about"

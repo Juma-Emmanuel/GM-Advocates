@@ -5,11 +5,12 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import PageHeaderBg from "../components/PageHeaderBg";
 import Contact from "../components/Contact/Contact";
+import HomeNavLink from "../components/Navbar/HomeNavLink";
 
 function Careers() {
   return (
     <section className="careers-page">
-      <Navbar />
+      <Navbar HomeLinkToRender={HomeNavLink} />
       <PageHeaderBg title={"Careers"} />
       <div className="careers-content">
         <div className="main-area">

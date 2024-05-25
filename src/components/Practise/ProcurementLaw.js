@@ -5,10 +5,11 @@ import Footer from "../Footer/Footer";
 import React from "react";
 import PractiseAreaBg from "./PractiseAreaBg";
 import Contact from "../Contact/Contact";
+import HomeNavLink from "../Navbar/HomeNavLink";
 function ProcurementLaw() {
   return (
     <section className="practise-area">
-      <Navbar />
+      <Navbar HomeLinkToRender={HomeNavLink} />
       <PractiseAreaBg title={"Procurement Law"} />
       <div className="practise-area-content">
         <div className="main-area">

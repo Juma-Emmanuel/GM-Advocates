@@ -5,10 +5,11 @@ import Footer from "../Footer/Footer";
 import technologyImg from "../../assets/technology-law.jpg";
 import PractiseAreaBg from "./PractiseAreaBg";
 import Contact from "../Contact/Contact";
+import HomeNavLink from "../Navbar/HomeNavLink";
 function TechnologyLaw() {
   return (
     <section className="practise-area">
-      <Navbar />
+      <Navbar HomeLinkToRender={HomeNavLink} />
       <PractiseAreaBg
         title={"Technology, Intellectual Property (IP) & Internet Law"}
       />

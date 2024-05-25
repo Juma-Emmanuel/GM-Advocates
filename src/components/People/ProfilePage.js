@@ -4,10 +4,11 @@ import OurPeopleBg from "./OurPeopleBg";
 import Profile from "./Profile";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
+import HomeNavLink from "../Navbar/HomeNavLink";
 const ProfilePage = ({ profileImg, name, about, position }) => {
   return (
     <div>
-      <Navbar />
+      <Navbar HomeLinkToRender={HomeNavLink} />
       <OurPeopleBg />
       <Profile
         profileImg={profileImg}

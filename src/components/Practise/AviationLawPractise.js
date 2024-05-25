@@ -5,10 +5,11 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import PractiseAreaBg from "./PractiseAreaBg";
 import Contact from "../Contact/Contact";
+import HomeNavLink from "../Navbar/HomeNavLink";
 function AviationLawPractise() {
   return (
     <section className="practise-area">
-      <Navbar />
+      <Navbar HomeLinkToRender={HomeNavLink} />
       <PractiseAreaBg title={"Aviation Law & Practice"} />
       <div className="practise-area-content">
         <div className="main-area">

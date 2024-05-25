@@ -5,10 +5,11 @@ import Footer from "../Footer/Footer";
 import corporateImg from "../../assets/commercial.jpg";
 import PractiseAreaBg from "./PractiseAreaBg";
 import Contact from "../Contact/Contact";
+import HomeNavLink from "../Navbar/HomeNavLink";
 function CorporateCommercial() {
   return (
     <section className="practise-area">
-      <Navbar />
+      <Navbar HomeLinkToRender={HomeNavLink} />
       <PractiseAreaBg title={"Corporate & Commercial Law"} />
       <div className="practise-area-content">
         <div className="main-area">

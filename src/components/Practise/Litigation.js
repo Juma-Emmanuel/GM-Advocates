@@ -5,10 +5,11 @@ import "./PracticeAreas.css";
 import PractiseAreaBg from "./PractiseAreaBg";
 import Contact from "../Contact/Contact";
 import litigationImg from "../../assets/Litigation-and-Dispute-Resolution.jpg";
+import HomeNavLink from "../Navbar/HomeNavLink";
 function Litigation() {
   return (
     <section className="practise-area">
-      <Navbar />
+      <Navbar HomeLinkToRender={HomeNavLink} />
       <PractiseAreaBg title={"Litigation & Dispute Resolution"} />
       <div className="practise-area-content">
         <div className="main-area">

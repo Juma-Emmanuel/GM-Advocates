@@ -9,11 +9,12 @@ import GodfreyPic from "../../assets/Godfrey.jpeg";
 import CatherinePic from "../../assets/catherine.jpeg";
 import AndrewPic from "../../assets/andrew.jpeg";
 import JohnPic from "../../assets/john.jpeg";
+import HomeNavLink from "../Navbar/HomeNavLink";
 
 function People() {
   return (
     <div className="people">
-      <Navbar />
+      <Navbar HomeLinkToRender={HomeNavLink} />
       <OurPeopleBg />
       <div className="our-people">
         <PersonCard

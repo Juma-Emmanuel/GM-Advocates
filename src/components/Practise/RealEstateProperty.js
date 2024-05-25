@@ -5,10 +5,11 @@ import Footer from "../Footer/Footer";
 import realEstateImg from "../../assets/real_estate.jpg";
 import PractiseAreaBg from "./PractiseAreaBg";
 import Contact from "../Contact/Contact";
+import HomeNavLink from "../Navbar/HomeNavLink";
 function RealEstateProperty() {
   return (
     <section className="practise-area">
-      <Navbar />
+      <Navbar HomeLinkToRender={HomeNavLink} />
       <PractiseAreaBg title={"Real Estate & Property Law"} />
       <div className="practise-area-content">
         <div className="main-area">
