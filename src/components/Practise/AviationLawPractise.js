@@ -14,7 +14,7 @@ function AviationLawPractise() {
       <div className="practise-area-content">
         <div className="main-area">
           <div className="horizontal-bar"></div>
-          <h1>Litigation & Dispute Resolution</h1>
+          <h1>Aviation Law & Practice</h1>
           <div className="main-area-text">
             <h7>
               We advise on a full range of aviation issues including major loss,
