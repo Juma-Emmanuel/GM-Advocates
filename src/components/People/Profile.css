@@ -14,10 +14,10 @@
   object-fit: cover;
   width: 33rem;
 
-  height: 55rem;
+  height: 55vh;
 }
 .profile-content {
-  height: 100%;
+  /* height: 100%; */
   display: flex;
   flex-direction: column;
   background-color: white;

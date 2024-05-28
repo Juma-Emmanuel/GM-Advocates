@@ -15,7 +15,7 @@ const PersonCard = ({
       <img className="profile-pic" src={profilePic} alt="Profile" />
 
       <div className="info">
-        <h2 className="name">
+        <h2 className="person-name">
           {firstName} {lastName}
         </h2>
         <p className="position">{position}</p>
