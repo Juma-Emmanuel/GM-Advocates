@@ -4,7 +4,7 @@ import ProfilePage from "../components/People/ProfilePage";
 const name = "Godfrey Orina";
 const position = "Managing Partner";
 const about =
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
+  "Godfrey represents clients across a range of industries and focuses on commonial transactions, merges and acquisitions.";
 
 function Godffrey() {
   return (
