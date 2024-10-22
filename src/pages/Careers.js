@@ -1,17 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./careers.css";
-import careersBgImg from "../assets/universe.jpg";
+
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import PageHeaderBg from "../components/PageHeaderBg";
+import careersImg from "../assets/office.jpg";
 import Contact from "../components/Contact/Contact";
 import HomeNavLink from "../components/Navbar/HomeNavLink";
+import PractiseAreaBg from "../components/Practise/PractiseAreaBg";
+import { jobs } from "../constants/jobs";
 
 function Careers() {
   return (
     <section className="careers-page">
       <Navbar HomeLinkToRender={HomeNavLink} />
-      <PageHeaderBg title={"Careers"} />
+      <PractiseAreaBg title={"careers "} />
+
       <div className="careers-content">
         <div className="main-area">
           <div className="horizontal-bar"></div>
@@ -28,7 +32,7 @@ function Careers() {
             </p>
           </div>
           <div className="img-container">
-            <img src={careersBgImg} alt="careers-background" className="img" />
+            <img src={careersImg} alt="careers-background" className="img" />
           </div>
         </div>
         <div className="focus-areas">
@@ -55,30 +59,28 @@ function Careers() {
             <h7>Collaborative Work Environment</h7>
           </div>
         </div>
-        <div className="vacancies">
-          <div className="horizontal-bar"></div>
-          <h1>Available Vacancies</h1>
-          <div className="vacancy">
-            <h2>Associate Attorney</h2>
-            <p>
-              We are looking for an Associate Attorney with 3-5 years of
-              experience in litigation. The ideal candidate will have strong
-              analytical skills and the ability to work collaboratively with our
-              team. Apply now to join our dynamic firm.
-            </p>
-          </div>
-          <div className="vacancy">
-            <h2>Legal Assistant</h2>
-            <p>
-              Our firm is seeking a Legal Assistant to support our attorneys
-              with case preparation, research, and administrative tasks. If you
-              have excellent organizational skills and a passion for the legal
-              field, we want to hear from you.
-            </p>
-          </div>
-          {/* space that we might to add more vacancies in future */}
+      </div>
+      <div className="vacancies">
+        <h1 className="v-title">Available Vacancies</h1>
+        <div className="row">
+          {jobs.map((job, index) => (
+            <div className="card-container" key={index}>
+              <Link
+                className="card-link"
+                to={`/job/${index}`}
+                state={{ job: job }}
+              >
+                <div className="vacancy-card">
+                  <p className="job-type">{job.jobType}</p>
+                  <p className="job">{job.name}</p>
+                  <p className="job-location">{job.location}</p>
+                </div>
+              </Link>
+            </div>
+          ))}
         </div>
       </div>
+
       <Contact />
       <Footer />
     </section>

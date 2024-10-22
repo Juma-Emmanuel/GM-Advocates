@@ -15,6 +15,7 @@ import Godffrey from "./pages/Godffrey";
 import Andrew from "./pages/Andrew";
 import ScrollToTop from "./ScrollToTop";
 import Careers from "./pages/Careers";
+import JobDetail from "./pages/JobDetail";
 
 function App() {
   return (
@@ -48,6 +49,8 @@ function App() {
           <Route path="/our-people/john-wekesa/" element={<John />} />
           <Route path="/our-people/godfrey-orina/" element={<Godffrey />} />
           <Route path="/our-people/andrew-wanga/" element={<Andrew />} />
+          <Route path="/careers/vacancy/" element={<JobDetail />} />
+          <Route path="/job/:id" element={<JobDetail />} />
         </Routes>
       </Router>
     </div>

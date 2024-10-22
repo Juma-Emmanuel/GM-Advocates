@@ -38,6 +38,7 @@
 
   transition: transform 0.3s ease;
 }
+
 .appointmentBtn:hover {
   background: white;
   color: #024677;
