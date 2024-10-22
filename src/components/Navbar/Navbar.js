@@ -31,7 +31,7 @@ const Navbar = ({ HomeLinkToRender }) => {
         className="name-logo"
       >
         <img src={logo} alt="Logo" className="logo" />
-        <h>G.M ORINA & CO. ADVOCATES</h>
+        <h><bold>G.M ORINA & CO. ADVOCATES</bold></h>
       </motion.div>
 
       <motion.div
