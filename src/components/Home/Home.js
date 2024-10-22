@@ -92,7 +92,7 @@ function Home() {
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
               >
-                Step into a world of legal excellence with G.M ORINA & Co.
+                Step into a world of legal excellence with G.M ORINA & CO.
                 ADVOCATES.We stand as your trusted partner in navigating the
                 legal landscape.
               </motion.h>
