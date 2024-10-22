@@ -4,7 +4,7 @@ import ProfilePage from "../components/People/ProfilePage";
 const name = "Godfrey Orina";
 const position = "Managing Partner";
 const about =
-  "Godfrey represents clients across a range of industries and focuses on commonial transactions, merges and acquisitions.";
+  "Godfrey is an Advocate of the high court of Kenya and a founding partner with wide experience in Litigation and Dispute resolution with a particular focus on constitutional law, commercial Litigation and tax law.";
 
 function Godffrey() {
   return (
