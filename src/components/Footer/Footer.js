@@ -32,7 +32,7 @@ function Footer() {
 
           <div className="contact-item">
             <i className="bi bi-envelope-fill"></i>
-            <h4> gmorinaadvocates@gmail.com</h4>{" "}
+            <h4> info@gmorinaadvocates.com</h4>{" "}
           </div>
         </div>
       </div>
