@@ -86,6 +86,9 @@
   text-decoration: none;
   border-bottom: 2px solid rgb(199, 66, 199);
 }
+.contact-scroll {
+  color: #024677;
+}
 .pract-link {
   display: flex;
   flex-direction: row;

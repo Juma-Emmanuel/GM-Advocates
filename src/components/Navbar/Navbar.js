@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../../assets/logo.jpeg";
 import { Link } from "react-router-dom";
 import PracticeAreaLinks from "./PracticeAreaLinks";
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 const Navbar = ({ HomeLinkToRender }) => {
   const [showMenu, setshowMenu] = useState(false);
@@ -31,7 +31,9 @@ const Navbar = ({ HomeLinkToRender }) => {
         className="name-logo"
       >
         <img src={logo} alt="Logo" className="logo" />
-        <h><bold>G.M ORINA & CO. ADVOCATES</bold></h>
+        <h>
+          <bold>G.M ORINA & CO. ADVOCATES</bold>
+        </h>
       </motion.div>
 
       <motion.div
@@ -130,7 +132,7 @@ const Navbar = ({ HomeLinkToRender }) => {
       <div className="navMenu" style={{ display: showMenu ? "flex" : "none" }}>
         <Link
           activeClass="active"
-          to="intro"
+          to="/"
           spy={true}
           smooth={true}
           offset={-100}
@@ -189,7 +191,7 @@ const Navbar = ({ HomeLinkToRender }) => {
         </Link>
         <Link
           activeClass="active"
-          to="careers"
+          to="/careers/"
           spy={true}
           smooth={true}
           offset={-50}
@@ -199,19 +201,8 @@ const Navbar = ({ HomeLinkToRender }) => {
         >
           Careers
         </Link>
-        <Link
-          activeClass="active"
-          to="reviews"
-          spy={true}
-          smooth={true}
-          offset={-50}
-          duration={600}
-          className="listItem"
-          onClick={() => setshowMenu(false)}
-        >
-          Reviews
-        </Link>
-        <Link
+
+        <ScrollLink
           activeClass="active"
           to="contact"
           spy={true}
@@ -219,10 +210,17 @@ const Navbar = ({ HomeLinkToRender }) => {
           offset={-50}
           duration={600}
           className="listItem"
+          style={{
+            display: "block",
+            color: "#024677",
+            padding: "0.25rem 0",
+            width: "fit-content",
+          }}
           onClick={() => setshowMenu(false)}
         >
-          Contact Us
-        </Link>
+          Contact us
+        </ScrollLink>
+
         <button className="ConsultationBtn">Get in Touch</button>
       </div>
     </div>
