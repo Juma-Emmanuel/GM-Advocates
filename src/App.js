@@ -17,6 +17,10 @@ import ScrollToTop from "./ScrollToTop";
 import Careers from "./pages/Careers";
 import JobDetail from "./pages/JobDetail";
 import Neema from "./pages/Neema";
+import DataProtection from "./components/Practise/DataProtection";
+import FamilyMarriage from "./components/Practise/FamilyMarriage";
+import NotarialServices from "./components/Practise/NotarialServices";
+import InvestmentFranchise from "./components/Practise/InvestmentFranchise";
 
 function App() {
   return (
@@ -43,6 +47,22 @@ function App() {
           <Route
             path="/aviation-law-practise/"
             element={<AviationLawPractise />}
+          />
+          <Route
+            path="/it-data-protection-crypto/"
+            element={<DataProtection />}
+          />
+          <Route
+            path="/family-marriage-succession/"
+            element={<FamilyMarriage />}
+          />
+          <Route
+            path="/notarial-services-certificates/"
+            element={<NotarialServices />}
+          />
+          <Route
+            path="/investment-franchise/"
+            element={<InvestmentFranchise />}
           />
           <Route path="/procurement-law/" element={<ProcurementLaw />} />
           <Route path="/our-people/" element={<People />} />

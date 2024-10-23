@@ -1,7 +1,6 @@
 .menus {
-  /* width: 25vw; */
   width: fit-content;
-  background: #024677;
+  background: #000435;
   top: 3vh;
   height: 43vh;
   overflow-y: scroll;
