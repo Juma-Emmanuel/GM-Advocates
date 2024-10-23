@@ -24,8 +24,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 100%;
-
   justify-content: space-evenly;
   background: #dcdcdc;
 }
@@ -94,7 +92,7 @@
   justify-content: center;
 }
 .v-title {
-  color: #1c71ad;
+  color: #024677;
 }
 .row {
   display: grid;
@@ -143,10 +141,24 @@
   font-size: 16px;
   font-weight: bold;
 }
-
+@media screen and (max-width: 1024px) {
+  .careers-content {
+    flex-direction: column;
+  }
+  .main-area h1,
+  .v-title {
+    padding: 1rem 0;
+    font-size: xx-large;
+  }
+}
 @media (max-width: 768px) {
   .main-area-text {
     font-size: 0.9rem;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(1, 0.01fr);
+    gap: 0.5rem;
   }
 
   .img {
@@ -163,5 +175,12 @@
 
   .vacancy p {
     font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-area h1,
+  .v-title {
+    padding: 1rem 0;
+    font-size: x-large;
   }
 }

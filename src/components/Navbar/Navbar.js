@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../../assets/logo.jpeg";
 import { Link } from "react-router-dom";
 import PracticeAreaLinks from "./PracticeAreaLinks";
-import { color, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 const Navbar = ({ HomeLinkToRender }) => {
   const [showMenu, setshowMenu] = useState(false);
@@ -43,17 +43,6 @@ const Navbar = ({ HomeLinkToRender }) => {
         transition={{ type: "spring", duration: 4 }}
         className="desktopMenu"
       >
-        {/* <Link
-          activeClass="active"
-          to="/"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={600}
-          className="desktopMenuListItem"
-        >
-          Home{" "}
-        </Link> */}
         {HomeLinkToRender && <HomeLinkToRender />}
         <ScrollLink
           activeClass="active"
