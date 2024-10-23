@@ -9,6 +9,7 @@ import GodfreyPic from "../../assets/Godfrey.jpeg";
 import CatherinePic from "../../assets/catherine.jpeg";
 import AndrewPic from "../../assets/andrew.jpeg";
 import JohnPic from "../../assets/john.jpeg";
+import NeemaPic from "../../assets/Neema-Joanne.jpeg";
 import HomeNavLink from "../Navbar/HomeNavLink";
 
 function People() {
@@ -44,6 +45,13 @@ function People() {
           profileLink="/our-people/john-wekesa/"
           firstName="John"
           lastName="Wekesa"
+          position="Senior Partner"
+        />
+        <PersonCard
+          profilePic={NeemaPic}
+          profileLink="/our-people/neema-joanne/"
+          firstName="Neema"
+          lastName="Joanne"
           position="Senior Partner"
         />
       </div>
