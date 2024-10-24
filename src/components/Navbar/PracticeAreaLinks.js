@@ -5,7 +5,7 @@ function PracticeAreaLinks() {
   return (
     <div className="menus">
       <Link to="/litigation-dispute/" className="menu-link">
-        Litigation and dispute resolution{" "}
+        Litigation and Dispute resolution{" "}
       </Link>
       <Link to="/technology-ip-internetlaw/" className="menu-link">
         Technology, Intellectual Property (IP) & Internet Law{" "}
