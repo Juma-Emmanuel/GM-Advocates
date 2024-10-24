@@ -5,7 +5,7 @@ function Neema() {
   const name = "Neema Joanne";
   const position = "Senior Partner";
   const about =
-    "Neema Joanne is an Advocate of the High Court of Kenya and Semior Partner at G.M Orina & Co. Advocates. She holds a Bachelor of Laws Degree from Kisii University, Diploma in Law from Kenya School of Law and is currently pursuing Masters of Law at the University of Nairobi";
+    "Neema Joanne is an Advocate of the High Court of Kenya and Senior Partner at G.M Orina & Co. Advocates. She holds a Bachelor of Laws Degree from Kisii University, Diploma in Law from Kenya School of Law and is currently pursuing Masters of Law at the University of Nairobi";
   return (
     <div>
       <ProfilePage
