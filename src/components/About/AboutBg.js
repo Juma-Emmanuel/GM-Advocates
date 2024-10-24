@@ -5,7 +5,7 @@ function AboutBg() {
   return (
     <section id="about-bg">
       <div className="horizontal-bar"></div>
-      <h1>We help Solve Your Legal Matters</h1>
+      <h1>We Help Solve Your Legal Issues</h1>
       <p>Reach out to us today!</p>
 
       <ScrollLink
@@ -17,7 +17,7 @@ function AboutBg() {
         className="appointmentBtn2"
       >
         {" "}
-        <button className="appointmentBtn">Get Appointment</button>
+        <button className="appointmentBtn">Book An Appointment</button>
       </ScrollLink>
     </section>
   );
