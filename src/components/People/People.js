@@ -23,7 +23,7 @@ function People() {
           profileLink="/our-people/godfrey-orina/"
           firstName="Godfrey"
           lastName="Orina"
-          position="Founding Partner"
+          position="Managing Partner"
         />
         {""}
         <PersonCard
