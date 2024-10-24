@@ -49,7 +49,7 @@
 }
 .slideBtn:hover {
   background: white;
-  color: #024677;
+  color: #000435;
   border: 1px solid white;
   transform: scale(1.1);
 }
@@ -76,7 +76,7 @@
   justify-content: center;
 }
 .value-item i {
-  color: #024677;
+  color: #000435;
   font-size: xx-large;
 }
 @media screen and (max-width: 1200px) {
