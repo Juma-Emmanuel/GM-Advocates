@@ -5,7 +5,7 @@ function Andrew() {
   const name = "Andrew Wanga";
   const position = "Senior Partner";
   const about =
-    " Andrew is a senior partner with a wealth of experience in immigration and  is Labelled With Internally Disabled Control, real estate, property law and financial technology.";
+    " Andrew is a senior partner at G.M Orina & Co. Advocates. He specializes in Commercial Law, Real Estate Law and Financial Technology.";
   return (
     <div>
       <ProfilePage
