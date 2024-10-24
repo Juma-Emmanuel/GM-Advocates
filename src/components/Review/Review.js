@@ -12,7 +12,7 @@ function Review() {
           </h>
           <p>
             Here's what clients had to say regarding their
-            <br /> experience with our Legal service{" "}
+            <br /> experience with our Legal Services{" "}
           </p>
           <a href="www.google.com">Our Reviews</a>
         </div>
