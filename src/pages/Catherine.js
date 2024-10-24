@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../assets/catherine.jpeg";
+import profileImg from "../assets/catherine.jpg";
 import ProfilePage from "../components/People/ProfilePage";
 function Catherine() {
   const name = "Catherine M. Mwinzi";

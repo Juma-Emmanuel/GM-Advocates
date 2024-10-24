@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../assets/Neema-Joanne.jpeg";
+import profileImg from "../assets/Neema-Joanne.jpg";
 import ProfilePage from "../components/People/ProfilePage";
 function Neema() {
   const name = "Neema Joanne";

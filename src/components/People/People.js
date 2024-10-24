@@ -5,11 +5,11 @@ import OurPeopleBg from "./OurPeopleBg";
 import Navbar from "../Navbar/Navbar";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
-import GodfreyPic from "../../assets/Godfrey.jpeg";
-import CatherinePic from "../../assets/catherine.jpeg";
+import GodfreyPic from "../../assets/Godfrey.jpg";
+import CatherinePic from "../../assets/catherine.jpg";
 import AndrewPic from "../../assets/andrew.jpeg";
 import JohnPic from "../../assets/john.jpeg";
-import NeemaPic from "../../assets/Neema-Joanne.jpeg";
+import NeemaPic from "../../assets/Neema-Joanne.jpg";
 import HomeNavLink from "../Navbar/HomeNavLink";
 
 function People() {

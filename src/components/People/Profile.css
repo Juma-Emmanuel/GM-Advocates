@@ -10,12 +10,13 @@
   background-color: white;
   overflow: hidden;
 }
-.profile-img {
-  object-fit: cover;
+.profile-img-div img {
   width: 33rem;
-
-  height: 55vh;
+  height: 34rem;
+  overflow: hidden;
+  object-fit: cover;
 }
+
 .profile-content {
   display: flex;
   flex-direction: column;
@@ -71,8 +72,8 @@
     width: 100%;
     padding: 3rem 3rem 0;
   }
-  .profile-img {
-    width: 100%;
+  .profile-img-div img {
+    width: 20rem;
     height: 25rem;
   }
   .profile-content {
@@ -93,7 +94,8 @@
     width: 100%;
     padding: 1rem 1rem 0;
   }
-  .profile-img {
+  .profile-img-div img {
+    width: 18rem;
     height: 20rem;
   }
 
