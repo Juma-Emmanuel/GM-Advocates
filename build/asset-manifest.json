@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0c41e8d.css",
+    "main.js": "/static/js/main.2ded928d.js",
+    "static/media/office.jpg": "/static/media/office.471ec70fac81da082d93.jpg",
+    "static/media/commercial.jpg": "/static/media/commercial.cff17caf6888e06a2c61.jpg",
+    "static/media/procurement.jpg": "/static/media/procurement.49a12085c8a0b8b8fdf8.jpg",
+    "static/media/universe.jpg": "/static/media/universe.6cac3c09be99f28fdb43.jpg",
+    "static/media/advance-materials.jpg": "/static/media/advance-materials.7cb861482579a3aa689d.jpg",
+    "static/media/andrew.jpeg": "/static/media/andrew.0af4a942769542058a4a.jpeg",
+    "static/media/chamber.jpg": "/static/media/chamber.cea796de9f554aeaa280.jpg",
+    "static/media/Catherine00.jpeg": "/static/media/Catherine00.2e996a57b06da56e1321.jpeg",
+    "static/media/logo.jpeg": "/static/media/logo.c89fe69249de161acaea.jpeg",
+    "static/media/universe-bg.jpg": "/static/media/universe-bg.c030b7cab10cb4bd5021.jpg",
+    "static/media/nairobi.jpeg": "/static/media/nairobi.7c80584d27640c39e925.jpeg",
+    "static/media/real_estate.jpg": "/static/media/real_estate.39bc421a6c690037ceaa.jpg",
+    "static/media/airplane-runway.jpg": "/static/media/airplane-runway.52fb24215be19e4a33ee.jpg",
+    "static/media/john.jpeg": "/static/media/john.e4db809cba4d79e32013.jpeg",
+    "static/media/investment.jpg": "/static/media/investment.b344ffc308bb50fd8eb7.jpg",
+    "static/media/core-value.jpeg": "/static/media/core-value.a5806999de0a9f00c599.jpeg",
+    "static/media/technology-law.jpg": "/static/media/technology-law.d03e56fbabd4fd381d8c.jpg",
+    "static/media/slide1.jpeg": "/static/media/slide1.c690def7c5012b366ef2.jpeg",
+    "static/media/Litigation-and-Dispute-Resolution.jpg": "/static/media/Litigation-and-Dispute-Resolution.1a4c08853fde12ffe53b.jpg",
+    "static/media/GM001.jpg": "/static/media/GM001.b0f1626619cdb26c6a6c.jpg",
+    "static/media/crypto.jpeg": "/static/media/crypto.21b72590da1ce89ae4e6.jpeg",
+    "static/media/family.jpeg": "/static/media/family.9fe1771c09c703af7d3a.jpeg",
+    "static/media/Neema-Joanne.jpg": "/static/media/Neema-Joanne.b6c4b5021296daabfd22.jpg",
+    "static/media/documents.jpg": "/static/media/documents.48b19fd046ec30a42c76.jpg",
+    "static/media/Review-Us-Sticker-300x300.png": "/static/media/Review-Us-Sticker-300x300.18c09b88e7856a3ac044.png",
+    "static/media/instagram.png": "/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/index.html",
+    "main.c0c41e8d.css.map": "/static/css/main.c0c41e8d.css.map",
+    "main.2ded928d.js.map": "/static/js/main.2ded928d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0c41e8d.css",
+    "static/js/main.2ded928d.js"
+  ]
+}
