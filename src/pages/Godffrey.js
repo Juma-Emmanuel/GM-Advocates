@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../assets/GM001.jpeg";
+import profileImg from "../assets/GM001.jpg";
 import ProfilePage from "../components/People/ProfilePage";
 const name = "Godfrey Orina";
 const position = "Managing Partner";

@@ -5,7 +5,7 @@ import OurPeopleBg from "./OurPeopleBg";
 import Navbar from "../Navbar/Navbar";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
-import GodfreyPic from "../../assets/GM001.jpeg";
+import GodfreyPic from "../../assets/GM001.jpg";
 import CatherinePic from "../../assets/Catherine00.jpeg";
 import AndrewPic from "../../assets/andrew.jpeg";
 import JohnPic from "../../assets/john.jpeg";
