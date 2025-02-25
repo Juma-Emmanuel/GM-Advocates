@@ -88,6 +88,17 @@ const Navbar = ({ HomeLinkToRender }) => {
         </Link>
         <Link
           activeClass="active"
+          to="/articles/"
+          spy={true}
+          smooth={true}
+          offset={-50}
+          duration={600}
+          className="desktopMenuListItem"
+        >
+          Articles
+        </Link>
+        <Link
+          activeClass="active"
           to="/careers/"
           spy={true}
           smooth={true}

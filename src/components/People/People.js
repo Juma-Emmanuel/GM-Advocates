@@ -6,7 +6,7 @@ import Navbar from "../Navbar/Navbar";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import GodfreyPic from "../../assets/GM001.jpg";
-import CatherinePic from "../../assets/Catherine00.jpeg";
+import AnnePic from "../../assets/anne-wanjiru.jpg";
 import AndrewPic from "../../assets/andrew.jpeg";
 import JohnPic from "../../assets/john.jpeg";
 import NeemaPic from "../../assets/Neema-Joanne.jpg";
@@ -27,10 +27,10 @@ function People() {
         />
         {""}
         <PersonCard
-          profilePic={CatherinePic}
-          profileLink="/our-people/catherine-mwinzi/"
-          firstName="Catherine "
-          lastName="M. Mwinzi"
+          profilePic={AnnePic}
+          profileLink="/our-people/anne-wanjiru/"
+          firstName="Anne"
+          lastName="Wanjiru"
           position="Adminstrator"
         />
         <PersonCard
